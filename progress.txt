@@ -1,4 +1,19 @@
-Task 1 DONE: Created new_weather.html with weather dashboard (NYC + Medina, OH via Open-Meteo API) and row-one buttons ("I Feel Lucky" → Google search, "It Hasn't Been My Day" → NYT). Glassmorphism styling applied.
-Task 2 DONE: Added row-two "On This Day On Bday" button. Opens overlay with year buttons 1900–2026. Clicking a year searches Google for interesting events on today's date in that year. Overlay styled to match glassmorphism theme with close button.
+## Progress
 
-ALL PRD TASKS COMPLETE.
+### Task 1: Row-one buttons (Lucky + NYT) ✅
+- Added "I Feel Lucky" button → opens Google search in new tab
+- Added "It Hasn't Been My Day" button → opens NYT today's paper in new tab
+- Styled with glassmorphism to match weather cards
+
+### Task 2: "On This Day On Bday" button ✅
+- Added second row with "On This Day On Bday" button
+- Opens overlay with year picker grid (1900–2026)
+- Clicking a year searches Google for interesting events on today's date in that year
+
+### Task 3: Button styling & layout ✅
+- Flex container with rows, centered below weather cards
+- Glassmorphism aesthetic (semi-transparent, rounded corners, white text)
+- Hover effects for interactivity
+
+### Housekeeping: Restore deleted file ✅
+- Restored new_weather.html which was deleted from working directory
