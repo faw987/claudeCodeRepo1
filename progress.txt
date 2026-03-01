@@ -1,0 +1,1 @@
+Task 1 DONE: Created new_weather.html with weather dashboard (NYC + Medina, OH via Open-Meteo API) and row-one buttons ("I Feel Lucky" → Google search, "It Hasn't Been My Day" → NYT). Glassmorphism styling applied. Row-two "on this day on bday" button still TODO.
