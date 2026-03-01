@@ -1,1 +1,4 @@
-Task 1 DONE: Created new_weather.html with weather dashboard (NYC + Medina, OH via Open-Meteo API) and row-one buttons ("I Feel Lucky" → Google search, "It Hasn't Been My Day" → NYT). Glassmorphism styling applied. Row-two "on this day on bday" button still TODO.
+Task 1 DONE: Created new_weather.html with weather dashboard (NYC + Medina, OH via Open-Meteo API) and row-one buttons ("I Feel Lucky" → Google search, "It Hasn't Been My Day" → NYT). Glassmorphism styling applied.
+Task 2 DONE: Added row-two "On This Day On Bday" button. Opens overlay with year buttons 1900–2026. Clicking a year searches Google for interesting events on today's date in that year. Overlay styled to match glassmorphism theme with close button.
+
+ALL PRD TASKS COMPLETE.
