@@ -15,5 +15,8 @@
 - Glassmorphism aesthetic (semi-transparent, rounded corners, white text)
 - Hover effects for interactivity
 
+### Task 4: Stack buttons vertically ✅
+- Removed btn-row wrappers so all three buttons stack in a single vertical column
+
 ### Housekeeping: Restore deleted file ✅
 - Restored new_weather.html which was deleted from working directory
