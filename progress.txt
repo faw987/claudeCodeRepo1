@@ -1,22 +1,12 @@
-## Progress
+All PRD1 tasks complete:
+1. Added three buttons below weather cards (I Feel Lucky, It Hasn't Been My Day, On This Day On Bday) - DONE
+2. Button styling with glassmorphism aesthetic, hover effects - DONE
+3. Button HTML in .buttons container after #cards div - DONE
+Layout changed to vertical stacking per follow-up request.
 
-### Task 1: Row-one buttons (Lucky + NYT) ✅
-- Added "I Feel Lucky" button → opens Google search in new tab
-- Added "It Hasn't Been My Day" button → opens NYT today's paper in new tab
-- Styled with glassmorphism to match weather cards
-
-### Task 2: "On This Day On Bday" button ✅
-- Added second row with "On This Day On Bday" button
-- Opens overlay with year picker grid (1900–2026)
-- Clicking a year searches Google for interesting events on today's date in that year
-
-### Task 3: Button styling & layout ✅
-- Flex container with rows, centered below weather cards
-- Glassmorphism aesthetic (semi-transparent, rounded corners, white text)
-- Hover effects for interactivity
-
-### Task 4: Stack buttons vertically ✅
-- Removed btn-row wrappers so all three buttons stack in a single vertical column
-
-### Housekeeping: Restore deleted file ✅
-- Restored new_weather.html which was deleted from working directory
+PRD2 tasks:
+1. Dropdown with places (Cleveland, Clearfield PA, Freehold NJ) + "Go to weather for this place" link - DONE
+2. Link to https://faw987.github.io/faw191 - TODO
+3. Current time and date display in big font - TODO
+4. Link to NYT front page - TODO
+5. Link to https://faw987.github.io/avsitai-s26.html - TODO
