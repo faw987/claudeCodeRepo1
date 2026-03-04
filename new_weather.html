@@ -152,6 +152,7 @@
     </select>
     <button class="btn" onclick="goToWeather()">Go to weather for this place</button>
   </div>
+  <div id="clock" style="font-size:2.5rem;font-weight:200;letter-spacing:1px;text-align:center;"></div>
   <a class="btn" href="https://faw987.github.io/faw191" target="_blank" style="text-decoration:none;">faw191</a>
   <button class="btn" onclick="window.open('https://www.google.com/search?q=What%27s+lucky+for+me+today%3F','_blank')">I Feel Lucky</button>
   <button class="btn" onclick="window.open('https://www.nytimes.com/section/todayspaper','_blank')">It Hasn't Been My Day</button>
@@ -193,6 +194,17 @@ async function fetchWeather() {
 
 fetchWeather();
 setInterval(fetchWeather, 300000);
+
+// Clock display
+function updateClock() {
+  const now = new Date();
+  const opts = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+  const date = now.toLocaleDateString('en-US', opts);
+  const time = now.toLocaleTimeString('en-US');
+  document.getElementById('clock').textContent = `${time}  ·  ${date}`;
+}
+updateClock();
+setInterval(updateClock, 1000);
 
 // Go to weather for selected place
 function goToWeather() {
