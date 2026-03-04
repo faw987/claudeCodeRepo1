@@ -9,4 +9,4 @@ PRD2 tasks:
 2. Link to https://faw987.github.io/faw191 - DONE
 3. Current time and date display in big font - DONE
 4. Link to NYT front page - DONE
-5. Link to https://faw987.github.io/avsitai-s26.html - TODO
+5. Link to https://faw987.github.io/avsitai-s26.html - DONE
