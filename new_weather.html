@@ -144,6 +144,14 @@
 </div>
 
 <div class="buttons">
+  <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;justify-content:center;">
+    <select id="place-select" class="btn" style="appearance:auto;text-align:center;">
+      <option value="cleveland,oh">Cleveland</option>
+      <option value="clearfield,pa">Clearfield, PA</option>
+      <option value="freehold,nj">Freehold, NJ</option>
+    </select>
+    <button class="btn" onclick="goToWeather()">Go to weather for this place</button>
+  </div>
   <button class="btn" onclick="window.open('https://www.google.com/search?q=What%27s+lucky+for+me+today%3F','_blank')">I Feel Lucky</button>
   <button class="btn" onclick="window.open('https://www.nytimes.com/section/todayspaper','_blank')">It Hasn't Been My Day</button>
   <button class="btn" onclick="openBdayOverlay()">On This Day On Bday</button>
@@ -184,6 +192,12 @@ async function fetchWeather() {
 
 fetchWeather();
 setInterval(fetchWeather, 300000);
+
+// Go to weather for selected place
+function goToWeather() {
+  const place = document.getElementById('place-select').value;
+  window.open('https://www.google.com/search?q=weather+' + encodeURIComponent(place), '_blank');
+}
 
 // On This Day On Bday
 function openBdayOverlay() {
