@@ -6,7 +6,7 @@ Layout changed to vertical stacking per follow-up request.
 
 PRD2 tasks:
 1. Dropdown with places (Cleveland, Clearfield PA, Freehold NJ) + "Go to weather for this place" link - DONE
-2. Link to https://faw987.github.io/faw191 - TODO
+2. Link to https://faw987.github.io/faw191 - DONE
 3. Current time and date display in big font - TODO
 4. Link to NYT front page - TODO
 5. Link to https://faw987.github.io/avsitai-s26.html - TODO
